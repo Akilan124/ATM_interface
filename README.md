@@ -1,2 +1,9 @@
-# ATM_interface
-A Python-based ATM interface using OOP and file handling. Supports login, deposit, withdrawal, balance check, and transaction history with data saved in JSON. Designed with clean code practices, ideal for internship-level project development.
+# Python ATM Interface
+
+This is a fully functional ATM simulation written in Python, featuring:
+
+- Account Login
+- Deposit and Withdrawal
+- Balance check and Transaction logs
+- File persistence using JSON
+
