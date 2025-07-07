@@ -1,19 +1,6 @@
-import json
-import os
-
-# Create folder if it doesn't exist
-os.makedirs("data", exist_ok=True)
-
-# Sample user data
-user_data = {
-    "account_number": "1001",
-    "pin": "1234",
-    "balance": 1000,
-    "history": []
+{
+  "account_number": "1001",
+  "pin": "1234",
+  "balance": 1000,
+  "history": []
 }
-
-# Save to JSON file
-with open("data/user_1001.json", "w") as f:
-    json.dump(user_data, f, indent=4)
-
-print("JSON file created at data/user_1001.json")
